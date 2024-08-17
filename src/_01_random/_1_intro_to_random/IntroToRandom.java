@@ -45,7 +45,7 @@ public class IntroToRandom {
 		// In this case, 25 is the lowest value we want, and 75 is the highest value. See below how to do this:
 		
 		for (int i=0; i<5; i++) {
-			// Uncomment the line of code below, and replace (___51__)  with   (highest value - lowest value + 1)
+			// Uncomment the line of code below, and replace (___51__)  with   (highest value - lowest value + 1)+ low
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
