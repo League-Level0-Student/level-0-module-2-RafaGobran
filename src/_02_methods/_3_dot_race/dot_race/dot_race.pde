@@ -13,32 +13,35 @@ int x;
 
 void setup() {
     size(800, 200);
-    
+    x = 50;
     //1. Set the variable named x to 50.
-}
-
+} 
 void draw() {
 
 	background(200,200,200);
  
     //2. Draw an ellipse of height and width 50. Make sure to use the x variable for its X position. 
     //   Pick a y value that places it half way down the window.
-      
+            fill(255, 0, 0, 200);
+      ellipse(x, 100,  50 , 50);
     //3. Make the ellipse a nice color
-
+       fill(255, 0, 0, 200);
     //4. If the mouse is pressed change the x value so that the dot moves to the right
-
+if(mousePressed){
+x = x+3;
+}
     //5. If your dot moves slowly, make it move faster. If it moves too quickly, slow it down
     //  (you have to figure out what part of your code to change)
-
+fill(255, 255, 255, 255);
+rect(700, 0,  10, 200);
     //6. Use an if statement to play a sound (ding) when your dot crosses the finish line (right side of window).
     //   A playSound() method is provided (you have to uncomment the code at the bottom of this program to get this to work)
     
 
 }
 
-/*
-import ddf.minim.*;
+
+/*import ddf.minim.*;
 boolean soundPlayed = false;
 void playSound() {
   
